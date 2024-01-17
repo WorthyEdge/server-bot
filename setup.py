@@ -20,17 +20,17 @@ async def setup():
     guild.case_id      = 1
 
     # required for permissions framework!
-    guild.role_administrator = 123  # put in the role IDs for your server here
-    guild.role_moderator     = 123  # put in the role IDs for your server here
-    guild.role_birthday      = 123  # put in the role IDs for your server here
-    guild.role_sub_mod       = 123  # put in the role IDs for your server here
-    guild.role_genius        = 123  # put in the role IDs for your server here
-    guild.role_dev           = 123  # put in the role IDs for your server here
-    guild.role_memberone     = 123  # put in the role IDs for your server here
-    guild.role_memberedition = 123  # put in the role IDs for your server here
-    guild.role_memberpro     = 123  # put in the role IDs for your server here
-    guild.role_memberplus    = 123  # put in the role IDs for your server here
-    guild.role_memberultra   = 123  # put in the role IDs for your server here
+    guild.role_administrator = 927792962325315614  # put in the role IDs for your server here
+    guild.role_moderator     = 927793486969831425  # put in the role IDs for your server here
+    guild.role_birthday      = 1197157884329467924  # put in the role IDs for your server here
+    guild.role_sub_mod       = 927794087971651656  # put in the role IDs for your server here
+    guild.role_genius        = 927794087971651656  # put in the role IDs for your server here
+    guild.role_dev           = 1197158964392120470  # put in the role IDs for your server here
+    guild.role_memberone     = 1068519548933898261  # put in the role IDs for your server here
+    guild.role_memberedition = 1068519606718832651  # put in the role IDs for your server here
+    guild.role_memberpro     = 1068519090521657384  # put in the role IDs for your server here
+    guild.role_memberplus    = 1068519004186091581  # put in the role IDs for your server here
+    guild.role_memberultra   = 1068519463810506863  # put in the role IDs for your server here
 
     # not required if you don't want the /subnews command
     guild.role_sub_news      = 123  # put in the role IDs for your server here
@@ -47,17 +47,17 @@ async def setup():
     # not required
     guild.channel_applenews      = 123  # put in the channel IDs for your server here
     # channel for public mod logs
-    guild.channel_public         = 123 # put in the channel IDs for your server here
+    guild.channel_public         = 1146783412603080836 # put in the channel IDs for your server here
     # optional, used for /subnrews command or something
     guild.channel_subnews        = 123  # put in the channel IDs for your server here
     # optional, required for /issue command
     guild.channel_common_issues  = 123  # put in the channel IDs for your server here
     # #general, required for permissions
-    guild.channel_general        =  123 # put in the channel IDs for your server here
+    guild.channel_general        = 918077533164032064 # put in the channel IDs for your server here
     # required for filter
-    guild.channel_development    = 123  # put in the channel IDs for your server here
+    guild.channel_development    = 1197160519602282587  # put in the channel IDs for your server here
     # required, #bot-commands channel
-    guild.channel_botspam        = 123  # put in the channel IDs for your server here
+    guild.channel_botspam        = 1146456071423152178  # put in the channel IDs for your server here
     # optional, needed for booster #emote-suggestions channel
     guild.channel_booster_emoji  = 123  # put in the channel IDs for your server here
 
